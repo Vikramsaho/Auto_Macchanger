@@ -1,0 +1,46 @@
+echo "AutoMachanger_V1.0"
+
+echo "   _/_/_/                        _/                _/  _/  _/           
+     _/    _/_/_/      _/_/_/  _/_/_/_/    _/_/_/  _/  _/      _/_/_/    
+    _/    _/    _/  _/_/        _/      _/    _/  _/  _/  _/  _/    _/   
+   _/    _/    _/      _/_/    _/      _/    _/  _/  _/  _/  _/    _/    
+_/_/_/  _/    _/  _/_/_/        _/_/    _/_/_/  _/  _/  _/  _/    _/     
+                                                                         
+                                                                         
+              
+              
+     _/_/_/   
+  _/    _/    
+ _/    _/     
+  _/_/_/      
+     _/       
+_/_/          
+                                                                           
+      _/_/_/    _/                            _/                      _/   
+   _/        _/_/_/_/    _/_/_/  _/  _/_/  _/_/_/_/    _/_/      _/_/_/    
+    _/_/      _/      _/    _/  _/_/        _/      _/_/_/_/  _/    _/     
+       _/    _/      _/    _/  _/          _/      _/        _/    _/      
+_/_/_/        _/_/    _/_/_/  _/            _/_/    _/_/_/    _/_/_/       
+"
+
+sudo apt install macchanger
+
+echo "Host Is Down"
+
+ ifconfig eth0 down
+
+echo "Mac Changing Is in process"
+
+ macchanger -m eth0
+
+echo "Host is UP"
+
+ ifconfig eth0 up
+
+echo "Host is SUCCESSFULLY UP"
+
+ macchanger -s eth0
+ 
+  
+echo "Mac Changed SUCCESSFULLY"
+
