@@ -4,19 +4,15 @@
 This TOOL is for Ehernet onnected USERS
 
 FOR eth0
+Tool Installation
 
 
 
- m    m                      #                                               
- ##  ##  mmm    mmm    mmm   # mm    mmm   m mm    mmmm   mmm    m mm        
- # ## # "   #  #"  "  #"  "  #"  #  "   #  #"  #  #" "#  #"  #   #"  "       
- # "" # m"""#  #      #      #   #  m"""#  #   #  #   #  #""""   #           
- #    # "mm"#  "#mm"  "#mm"  #   #  "mm"#  #   #  "#m"#  "#mm"   #           
-                                                   m  #                      
-                                                    ""                """""" 
-                                                                             
- m    m mmm            mmmm                                                  
- "m  m"   #           m"  "m                                                 
-  #  #    #           #  m #                                                 
-  "mm"    #           #    #                                                 
-   ##   mm#mm    #     #mm#                                                  
+git clone https://github.com/Vikramsaho/Auto_Macchanger/
+cd Auto_Macchanger
+chmod 777 AutoMacchanger
+sudo ./AutoMacchanger
+
+
+
+ 
